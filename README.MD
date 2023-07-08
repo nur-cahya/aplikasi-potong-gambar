@@ -11,32 +11,23 @@ Aplikasi Potong Gambar adalah aplikasi web yang memungkinkan Anda mengunggah gam
 - Lihat gambar yang dipotong yang dihasilkan.
 - Unduh gambar yang dipotong.
 - Unduh proses pemotongan sebagai file penurunan harga.
+
 ## Instalasi
 
 1. Kloning repositori:
-
-    ``` pesta
     git clone https://github.com/nur-cahya/aplikasi-potong-gambar.git
-    ```
 
 2. Ubah ke direktori proyek:
-
-    ``` pesta
     cd py-img-cropper
-    ```
 
 3. Instal dependensi:
+    pip instal -r requirements.txt
 
-    ``` pesta
-    pip instal -r persyaratan.txt
-    ```
 ## Penggunaan
 
 1. Mulai aplikasi web:
-
-    ``` pesta
     aplikasi python.py
-    ```
+
 2. Buka browser web Anda dan buka `http://localhost:5000`.
 3. Pilih file gambar dengan mengklik tombol "Pilih gambar".
 4. Pratinjau gambar yang dipilih.
