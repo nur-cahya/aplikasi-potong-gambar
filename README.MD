@@ -1,61 +1,47 @@
-# README
+# 
+Aplikasi Potong Gambar adalah aplikasi web yang memungkinkan Anda mengunggah gambar, mempratinjaunya, memotongnya berdasarkan posisi dan ukuran, dan mengunduh gambar hasil pemotongan. Aplikasi web dibangun menggunakan Flask dan OpenCV.
 
-This is a [Flask](http://flask.pocoo.org/) app for my final exam exercise.
+## Fitur
 
-Demo: [https://fumui-img-cropper.onrender.com](https://fumui-img-cropper.onrender.com)
+- Pilih file gambar dari perangkat lokal Anda.
+- Pratinjau gambar yang dipilih sebelum memotong.
+- Pilih posisi potong dari opsi yang telah ditentukan.
+- Tentukan ukuran tanaman sebagai nilai numerik.
+- Pangkas gambar berdasarkan posisi dan ukuran yang dipilih.
+- Lihat gambar yang dipotong yang dihasilkan.
+- Unduh gambar yang dipotong.
+- Unduh proses pemotongan sebagai file penurunan harga.
+## Instalasi
 
-Py Image Cropper is a web application that allows you to upload an image, preview it, crop it based on position and size, and download the resulting cropped image. The web app is built using Flask and OpenCV.
+1. Kloning repositori:
 
-## Features
+    ``` pesta
+    git clone https://github.com/nur-cahya/aplikasi-potong-gambar.git
+    ```
 
-- Select an image file from your local device.
-- Preview the selected image before cropping.
-- Choose the crop position from predefined options.
-- Specify the crop size as a numeric value.
-- Crop the image based on the selected position and size.
-- View the resulting cropped image.
-- Download the cropped image.
-- Download the cropping process as a markdown file.
-## Installation
+2. Ubah ke direktori proyek:
 
-1. Clone the repository:
+    ``` pesta
+    cd py-img-cropper
+    ```
 
-   ```bash
-   git clone https://github.com/fumui/py-img-cropper.git
-   ```
+3. Instal dependensi:
 
-2. Change to the project directory:
+    ``` pesta
+    pip instal -r persyaratan.txt
+    ```
+## Penggunaan
 
-   ```bash
-   cd py-img-cropper
-   ```
+1. Mulai aplikasi web:
 
-3. Install the dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-## Usage
-
-1. Start the web app:
-
-   ```bash
-   python app.py
-   ```
-
-2. Open your web browser and go to `http://localhost:5000`.
-
-3. Select an image file by clicking on the "Select image" button.
-
-4. Preview the selected image.
-
-5. Choose the crop position from the dropdown list.
-
-6. Specify the crop size in pixels.
-
-7. Click the "Crop" button to perform the crop operation.
-
-8. View the resulting cropped image.
-
-9. Download the resulting cropped image as a markdown file or an image.
+    ``` pesta
+    aplikasi python.py
+    ```
+2. Buka browser web Anda dan buka `http://localhost:5000`.
+3. Pilih file gambar dengan mengklik tombol "Pilih gambar".
+4. Pratinjau gambar yang dipilih.
+5. Pilih posisi pangkas dari daftar dropdown.
+6. Tentukan ukuran pemotongan dalam piksel.
+7. Klik tombol "Potong" untuk melakukan operasi pemotongan.
+8. Lihat gambar hasil pemotongan.
+9. Unduh gambar hasil pemotongan sebagai file markdown atau gambar.
